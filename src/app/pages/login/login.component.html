@@ -1,0 +1,17 @@
+<section class="login-container">
+    <form [formGroup]="formLogin" class="login-container__form" (ngSubmit)="submit()">
+        <div class="mb-3">
+            <label for="" class="form-label">Username</label>
+            <input type="text" class="form-control" formControlName="username" placeholder="">
+            <small id="helpId" class="form-text text-muted">Ingrese usuario</small>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Password</label>
+            <input type="text" class="form-control" formControlName="password" placeholder="">
+            <small id="helpId" class="form-text text-muted">Ingrese contraseña</small>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" name="" id="" class="btn btn-primary">Button</button>
+        </div>
+    </form>
+</section>
